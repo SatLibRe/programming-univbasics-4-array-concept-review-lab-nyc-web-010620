@@ -3,6 +3,7 @@ def find_element_index(array, value_to_find)
   while array.length > i do 
     if array[value_to_find] == array[i]
     end 
+    i += 1
   end 
 end
 
